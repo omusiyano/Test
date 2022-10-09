@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4F82CCB7914750BBCAF875 /* libPods-Pecherytsia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B21DCB65DD1B5F1E45EF62 /* libPods-Pecherytsia.a */; };
 		7D41EFC728F18E6300781017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFC628F18E6300781017 /* AppDelegate.swift */; };
 		7D41EFC928F18E6300781017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFC828F18E6300781017 /* SceneDelegate.swift */; };
-		7D41EFCB28F18E6300781017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFCA28F18E6300781017 /* ViewController.swift */; };
-		7D41EFCE28F18E6300781017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41EFCC28F18E6300781017 /* Main.storyboard */; };
 		7D41EFD028F18E6500781017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D41EFCF28F18E6500781017 /* Assets.xcassets */; };
 		7D41EFD328F18E6500781017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D41EFD128F18E6500781017 /* LaunchScreen.storyboard */; };
+		7D41EFDE28F18EAB00781017 /* RoomsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFDD28F18EAB00781017 /* RoomsCell.swift */; };
+		7D41EFE028F18EB600781017 /* RoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFDF28F18EB600781017 /* RoomsView.swift */; };
+		7D41EFE228F18EC400781017 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFE128F18EC400781017 /* RoomsViewController.swift */; };
+		7D41EFE428F18ECE00781017 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFE328F18ECE00781017 /* PeopleCell.swift */; };
+		7D41EFE628F18ED800781017 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFE528F18ED800781017 /* PeopleView.swift */; };
+		7D41EFE828F18EEB00781017 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFE728F18EEB00781017 /* PeopleViewController.swift */; };
+		7D41EFEA28F18EF900781017 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFE928F18EF900781017 /* MainPageView.swift */; };
+		7D41EFEC28F18F0500781017 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFEB28F18F0500781017 /* MainPageViewController.swift */; };
+		7D41EFF028F18F3500781017 /* SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFEF28F18F3500781017 /* SubViews.swift */; };
+		7D41EFF228F18F5800781017 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFF128F18F5800781017 /* APIManager.swift */; };
+		7D41EFF528F18F8B00781017 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFF428F18F8B00781017 /* Rooms.swift */; };
+		7D41EFF728F18FA100781017 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41EFF628F18FA100781017 /* People.swift */; };
+		7D49057928F2CA7E006F66D6 /* PeopleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49057828F2CA7E006F66D6 /* PeopleDetailView.swift */; };
+		7D49057B28F2CA8C006F66D6 /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D49057A28F2CA8C006F66D6 /* PeopleDetailViewController.swift */; };
+		7D4D475328F191730025FD3B /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D475228F191730025FD3B /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42221EC45937F4C935036BC0 /* Pods-Pecherytsia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pecherytsia.release.xcconfig"; path = "Target Support Files/Pods-Pecherytsia/Pods-Pecherytsia.release.xcconfig"; sourceTree = "<group>"; };
+		79437FB067ADD142BBFEE590 /* Pods-Pecherytsia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pecherytsia.debug.xcconfig"; path = "Target Support Files/Pods-Pecherytsia/Pods-Pecherytsia.debug.xcconfig"; sourceTree = "<group>"; };
 		7D41EFC328F18E6300781017 /* Pecherytsia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pecherytsia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D41EFC628F18E6300781017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D41EFC828F18E6300781017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D41EFCA28F18E6300781017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D41EFCD28F18E6300781017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D41EFCF28F18E6500781017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D41EFD228F18E6500781017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D41EFD428F18E6500781017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D41EFDD28F18EAB00781017 /* RoomsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCell.swift; sourceTree = "<group>"; };
+		7D41EFDF28F18EB600781017 /* RoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsView.swift; sourceTree = "<group>"; };
+		7D41EFE128F18EC400781017 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		7D41EFE328F18ECE00781017 /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		7D41EFE528F18ED800781017 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		7D41EFE728F18EEB00781017 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		7D41EFE928F18EF900781017 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		7D41EFEB28F18F0500781017 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		7D41EFEF28F18F3500781017 /* SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViews.swift; sourceTree = "<group>"; };
+		7D41EFF128F18F5800781017 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7D41EFF428F18F8B00781017 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+		7D41EFF628F18FA100781017 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		7D49057828F2CA7E006F66D6 /* PeopleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailView.swift; sourceTree = "<group>"; };
+		7D49057A28F2CA8C006F66D6 /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
+		7D4D475228F191730025FD3B /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		99B21DCB65DD1B5F1E45EF62 /* libPods-Pecherytsia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pecherytsia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4F82CCB7914750BBCAF875 /* libPods-Pecherytsia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50C7025A4728BCD9154CCB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79437FB067ADD142BBFEE590 /* Pods-Pecherytsia.debug.xcconfig */,
+				42221EC45937F4C935036BC0 /* Pods-Pecherytsia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D41EFBA28F18E6200781017 = {
 			isa = PBXGroup;
 			children = (
 				7D41EFC528F18E6300781017 /* Pecherytsia */,
 				7D41EFC428F18E6300781017 /* Products */,
+				50C7025A4728BCD9154CCB71 /* Pods */,
+				9ABC0489CA0605AF788DED2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,100 @@
 		7D41EFC528F18E6300781017 /* Pecherytsia */ = {
 			isa = PBXGroup;
 			children = (
-				7D41EFC628F18E6300781017 /* AppDelegate.swift */,
-				7D41EFC828F18E6300781017 /* SceneDelegate.swift */,
-				7D41EFCA28F18E6300781017 /* ViewController.swift */,
-				7D41EFCC28F18E6300781017 /* Main.storyboard */,
-				7D41EFCF28F18E6500781017 /* Assets.xcassets */,
-				7D41EFD128F18E6500781017 /* LaunchScreen.storyboard */,
+				7D41EFF328F18F6A00781017 /* Model */,
+				7D41EFEE28F18F1100781017 /* Supports */,
+				7D41EFED28F18F0900781017 /* ApiManager */,
+				7D41EFDC28F18E9E00781017 /* Rooms */,
+				7D41EFDB28F18E9000781017 /* People */,
+				7D41EFDA28F18E8000781017 /* MainPage */,
 				7D41EFD428F18E6500781017 /* Info.plist */,
 			);
 			path = Pecherytsia;
+			sourceTree = "<group>";
+		};
+		7D41EFDA28F18E8000781017 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFE928F18EF900781017 /* MainPageView.swift */,
+				7D41EFEB28F18F0500781017 /* MainPageViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		7D41EFDB28F18E9000781017 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				7D49057728F2CA4B006F66D6 /* PeopleCollection */,
+				7D49057628F2CA38006F66D6 /* PeopleDetailView */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		7D41EFDC28F18E9E00781017 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFDD28F18EAB00781017 /* RoomsCell.swift */,
+				7D41EFDF28F18EB600781017 /* RoomsView.swift */,
+				7D41EFE128F18EC400781017 /* RoomsViewController.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		7D41EFED28F18F0900781017 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFF128F18F5800781017 /* APIManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		7D41EFEE28F18F1100781017 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFC628F18E6300781017 /* AppDelegate.swift */,
+				7D41EFC828F18E6300781017 /* SceneDelegate.swift */,
+				7D41EFCF28F18E6500781017 /* Assets.xcassets */,
+				7D41EFD128F18E6500781017 /* LaunchScreen.storyboard */,
+				7D41EFEF28F18F3500781017 /* SubViews.swift */,
+				7D4D475228F191730025FD3B /* AppColors.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		7D41EFF328F18F6A00781017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFF428F18F8B00781017 /* Rooms.swift */,
+				7D41EFF628F18FA100781017 /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D49057628F2CA38006F66D6 /* PeopleDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7D49057828F2CA7E006F66D6 /* PeopleDetailView.swift */,
+				7D49057A28F2CA8C006F66D6 /* PeopleDetailViewController.swift */,
+			);
+			path = PeopleDetailView;
+			sourceTree = "<group>";
+		};
+		7D49057728F2CA4B006F66D6 /* PeopleCollection */ = {
+			isa = PBXGroup;
+			children = (
+				7D41EFE328F18ECE00781017 /* PeopleCell.swift */,
+				7D41EFE528F18ED800781017 /* PeopleView.swift */,
+				7D41EFE728F18EEB00781017 /* PeopleViewController.swift */,
+			);
+			path = PeopleCollection;
+			sourceTree = "<group>";
+		};
+		9ABC0489CA0605AF788DED2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B21DCB65DD1B5F1E45EF62 /* libPods-Pecherytsia.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D41EFD728F18E6500781017 /* Build configuration list for PBXNativeTarget "Pecherytsia" */;
 			buildPhases = (
+				531B185461FCDC62232F75B8 /* [CP] Check Pods Manifest.lock */,
 				7D41EFBF28F18E6300781017 /* Sources */,
 				7D41EFC028F18E6300781017 /* Frameworks */,
 				7D41EFC128F18E6300781017 /* Resources */,
@@ -127,34 +255,64 @@
 			files = (
 				7D41EFD328F18E6500781017 /* LaunchScreen.storyboard in Resources */,
 				7D41EFD028F18E6500781017 /* Assets.xcassets in Resources */,
-				7D41EFCE28F18E6300781017 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		531B185461FCDC62232F75B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pecherytsia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D41EFBF28F18E6300781017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D41EFCB28F18E6300781017 /* ViewController.swift in Sources */,
+				7D41EFF028F18F3500781017 /* SubViews.swift in Sources */,
+				7D41EFE228F18EC400781017 /* RoomsViewController.swift in Sources */,
+				7D41EFEA28F18EF900781017 /* MainPageView.swift in Sources */,
+				7D41EFF728F18FA100781017 /* People.swift in Sources */,
+				7D49057928F2CA7E006F66D6 /* PeopleDetailView.swift in Sources */,
 				7D41EFC728F18E6300781017 /* AppDelegate.swift in Sources */,
+				7D41EFE628F18ED800781017 /* PeopleView.swift in Sources */,
+				7D41EFDE28F18EAB00781017 /* RoomsCell.swift in Sources */,
+				7D41EFE828F18EEB00781017 /* PeopleViewController.swift in Sources */,
+				7D41EFF528F18F8B00781017 /* Rooms.swift in Sources */,
 				7D41EFC928F18E6300781017 /* SceneDelegate.swift in Sources */,
+				7D49057B28F2CA8C006F66D6 /* PeopleDetailViewController.swift in Sources */,
+				7D41EFEC28F18F0500781017 /* MainPageViewController.swift in Sources */,
+				7D41EFF228F18F5800781017 /* APIManager.swift in Sources */,
+				7D4D475328F191730025FD3B /* AppColors.swift in Sources */,
+				7D41EFE028F18EB600781017 /* RoomsView.swift in Sources */,
+				7D41EFE428F18ECE00781017 /* PeopleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D41EFCC28F18E6300781017 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D41EFCD28F18E6300781017 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7D41EFD128F18E6500781017 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +440,7 @@
 		};
 		7D41EFD828F18E6500781017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79437FB067ADD142BBFEE590 /* Pods-Pecherytsia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +451,7 @@
 				INFOPLIST_FILE = Pecherytsia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +469,7 @@
 		};
 		7D41EFD928F18E6500781017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42221EC45937F4C935036BC0 /* Pods-Pecherytsia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +480,7 @@
 				INFOPLIST_FILE = Pecherytsia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
